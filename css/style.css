@@ -1,18 +1,13 @@
 /*common start*/
-
 body {
 	color: #8e8e8e;
    font-family: Roboto-Regular;
 	font-size: 16px;
-
 }
-
-
 /*common end*/
 
+
 /*fonts start*/
-
-
 @font-face {
    font-family: Lato-Bold;
    src: url(../fonts/Lato-Bold.ttf);
@@ -37,19 +32,13 @@ body {
    font-family: Roboto-Regular;
    src: url(../fonts/Roboto-Regular.ttf);
 }
-
-
 /*fonts end*/
 
 
 /*header start*/
-
-
 header {
 	padding: 20px 0;
-
 }
-
 
 .logo{
    position: relative;
@@ -57,21 +46,19 @@ header {
    font-family: Lato-Regular;
    text-transform: uppercase;
    color: #333333 !important;
-
 }
 
 .logo::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -29px;
-    right: 0;
-    margin: auto;
-    width: 1px;
-    height: 40px;
-    background: #333333;
+   content: "";
+   position: absolute;
+   left: 0;
+   top: -29px;
+   right: 0;
+   margin: auto;
+   width: 1px;
+   height: 40px;
+   background: #333333;
 }
-
 
 .menu ul li a {
 	color: #8e8e8e !important;
@@ -81,11 +68,9 @@ header {
    text-transform: uppercase;
 }
 
-
 .menu ul li a:hover {
 	color: #333333 !important;
 }
-
 
 .btn_search i {
 	font-size: 16px;	
@@ -96,7 +81,6 @@ header {
 .btn_search i:hover {
    color: #333333;
 }
-
 
 .btn_search:focus {
     box-shadow: none;
@@ -119,7 +103,6 @@ header {
    border: 1px solid #8e8e8e;
    border-radius: 30px;
 }
-
 
 .c_form {
    padding: 8px 0 8px 22px;
@@ -145,34 +128,27 @@ header {
 .b_s_icon:focus {
     box-shadow: none;
 }
-
 /*header end*/
 
 
 /*banner start*/
-
 .banner {
 	background-image: url(../images/banner.jpg);
    background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
-
 
 .s_content {
    margin-top: 200px;
    margin-bottom: 200px;
 }
 
-
 .s_content h1 {
    font-size: 60px;
    font-family: Lato-Bold;
    color: white;
 }
-
-
 
 .s_content p {
    color: white;   
@@ -208,11 +184,9 @@ header {
    border: 2px solid #333333 !important;
 }
 
-
 .learn_btn:hover .l_icon i{
    color: #333333;
 }
-
 
 .s_btn {
    text-transform: uppercase;
@@ -247,18 +221,10 @@ header {
    height: 23px;
    background-color: #333333;
 }
-
-
 /*banner end*/
 
 
 /*service start*/
-
-
-.s_title {
-   
-}
-
 .t_arrow {
    margin: 0 auto;
    width: 2px;
@@ -272,9 +238,7 @@ header {
    font-family: Lato-Regular;
    text-transform: uppercase;
    padding-top: 15px;
-
 }
-
 
 .c_p {
    padding: 30px 0;
@@ -289,13 +253,11 @@ header {
    transition: .3s;
 }
 
-
 .s_icon {
    margin: 0 auto;
    margin-top: -91px;
    background-color: white;
    width: 70px;
-
 }
 
 .s_icon i{
@@ -318,13 +280,11 @@ header {
    line-height: 27px;
 }
 
-
 .b_arrow {
    margin: 0 auto;
    width: 50px;
    height: 1px;
    background-color: #8e8e8e;
-
 }
 
 .s_service a {
@@ -337,7 +297,6 @@ header {
    padding-left: 15px;
 }
 
-
 .s_service:hover {
    border: 1px solid #333333;
 }
@@ -349,13 +308,10 @@ header {
 .s_service:hover a {
    color: #333333;
 }
-
 /*service end*/
 
 
 /*about us start*/
-
-
 .about_us {
    padding: 50px 0 120px;
 }
@@ -378,38 +334,37 @@ header {
 .learn_btn2 {
    border: 2px solid #8e8e8e;
 }
-
-
 /*about us end*/
 
 
-
 /*portfolio start*/
-
 .p_menu {
    padding: 90px 0 10px;
 }
 
-
-.p_menu ul li a {
-   margin-right: 20px;
-   text-decoration: none;
-   font-size: 16px;
-   color: #8e8e8e;
-   padding: 10px 8px;
-   border: 2px solid white;
-   transition: .3s;
+.p_nav {
+   border-bottom: 0;
 }
 
-.p_menu ul li a:hover {
-   color: #333333;
-   border: 2px solid #333333;
+.n_btn{
+   margin-right: 16px !important;
+   color: #8e8e8e !important;
+   text-transform: uppercase;
+   background-color: transparent !important;
+   border: 1px solid transparent !important;
+   border-radius: 0 !important;
+   padding: 10px;
 }
 
-.p_menu ul li:last-child a {
-   margin-right: 0;
+
+.n_btn:hover{
+    color: #333333 !important;
 }
 
+.n_btn.active{
+   color: #333333 !important;
+   border: 1px solid #333333 !important;
+}
 
 
 .ptb_custom {
@@ -430,7 +385,7 @@ header {
 
 .overlay_icon {
   position: absolute;
-  top: 42%;
+  top: 44%;
   left: 50%;
   opacity: 0;
   transform: translate(-50%, -50%);
@@ -442,24 +397,27 @@ header {
 .overlay_icon i {
    font-size: 60px;
    color: white;
+   transition: .5s;
 }
+
 
 .overlay_text {
-  position: absolute; 
-  bottom: 0; 
-  background: white;
-  width: 100%;
-  opacity:0;
-  padding: 15px 30px;
-  z-index: 2; 
-  transition: .5s;
+   position: absolute;  
+   bottom: 0;
+   width: 100%;
+   height: 0;
+   background-color: white;
+   overflow: hidden;
+   transition: .5s;
+   z-index: 2; 
+   padding: 0 30px;
 }
-
 
 .overlay_text h2 {
    font-size: 18px;
    font-family: Lato-Bold;
    color: #333333;
+   padding-top: 15px;
 }
 
 .overlay_text p {
@@ -478,7 +436,7 @@ header {
 }
 
 .p_single:hover .overlay_text {
-   opacity: 1;
+   height: 85px;
 }
 
 .p_single:hover .overlay_icon {
@@ -488,14 +446,10 @@ header {
 .p_single:hover .overlay_bg {
    opacity: .5;
 }
-
-
 /*portfolio end*/
 
 
-
 /*choose start*/
-
 .ptb_custom2 {
   padding: 100px 0;
 }
@@ -523,7 +477,6 @@ header {
    transition: .3s;
 }
 
-
 .c_text p {
    margin: 0;
    padding: 30px 0 38px;
@@ -535,7 +488,6 @@ header {
    border-bottom: 2px solid #333333;   
 }
 
-
 .c_single:hover .c_icon i {
    color: #333333;
 }
@@ -543,13 +495,10 @@ header {
 .c_single:hover .c_text h2 {
    color: #333333;
 }
-
-
 /*choose end*/
 
 
 /*work start*/
-
 .work {
    background-image: url(../images/work_bg.jpg);
    background-repeat: no-repeat;
@@ -563,10 +512,8 @@ header {
    margin-bottom: 20px;
 }
 
-
 .w_single img {
    width: 100%;
-
 }
 
 .w_single h5 {
@@ -575,7 +522,6 @@ header {
    font-family: Lato-Bold;
    text-transform: uppercase;
 }
-
 
 .overlay {
    position: absolute;  
@@ -588,7 +534,6 @@ header {
    transition: .5s;
    padding: 10px 0;
 }
-
 
 .overlay ul li a i{
    width: 100%;
@@ -606,8 +551,6 @@ header {
    border-right: 2px solid #333333;   
 }
 
-
-
 .w_single:hover .overlay {
    width: 15%;
 }
@@ -615,12 +558,10 @@ header {
 .w_single:hover .overlay ul li a i {
    opacity: 1;
 }
-
 /*work end*/
 
 
 /*pricing start*/
-
 .s_pricing {
    margin-top: 20px;
    margin-bottom: 20px;
@@ -674,25 +615,20 @@ header {
 .s_pricing:hover .learn_btn i {
    color: #333333;
 }
-
-
 /*pricing end*/
 
 
 /*template start*/
-
 .temp_text p {
    margin: 0;
    font-size: 18px;
    font-family: Lato-Regular;
    color: #333333;
 }
-
-
 /*template end*/
 
-/*quote start*/
 
+/*quote start*/
 .q_border {   
    padding: 40px 30px;
    border: 1px solid #8e8e8e;
@@ -702,7 +638,6 @@ header {
    position: relative;
    margin: 0;
 }
-
 
 .q_img img {
    width: 100% !important;
@@ -718,7 +653,6 @@ header {
    font-size: 30px;
    color: #333333;
 }
-
 
 .q_text h1{
    margin: 0;
@@ -748,7 +682,6 @@ header {
    line-height: 27px;
    padding-bottom: 20px;
 }
-
 
 .q_p_n {
    height: 100%;
@@ -790,14 +723,10 @@ header {
    height: 2px;
    background-color: #333333;
 }
-
-
 /*quote end*/
 
 
-
 /*contact start*/
-
 .s_contact {
    margin-top: 20px;
    margin-bottom: 20px;
@@ -805,7 +734,6 @@ header {
    padding: 65px 0;
    transition: .3s;
 }
-
 
 .s_text {
    margin-top: -87px;
@@ -838,13 +766,10 @@ header {
    outline: 0;
    box-shadow: none;
 }
-
-
-
 /*contact end*/
 
-/*footer start*/
 
+/*footer start*/
 footer {   
    background-image: url(../images/social_bg.jpg);
    background-position: center;
@@ -852,8 +777,8 @@ footer {
    background-size: cover;
 }
 
-/*social start*/
 
+/*social start*/
 .social {
    padding: 35px 0 70px; 
    border-bottom: 2px solid white;  
@@ -883,21 +808,18 @@ footer {
    color: #333333;
    background-color: white;
 }
-
 /*social end*/
 
-/*footer bottom start*/
 
+/*footer bottom start*/
 .f_bottom {
    padding: 40px 0;
-
 }
 
 .f_text p {
    margin: 0;
    color: white;
 }
-
 
 .f_menu ul li a {
    text-decoration: none;
@@ -910,21 +832,12 @@ footer {
 
 .f_menu ul li:last-child a {
    margin-right: 0;
-
 }
 
 .f_menu ul li a:hover {
    border-bottom: 1px solid white;
 
 }
-
-
-
-
 /*footer bottom end*/
-
-
-
-
 
 /*footer end*/
